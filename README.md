@@ -1,1 +1,29 @@
-# lstm_speaker_naming_aaai16
+# Look, Listen and Learn - A Multimodal LSTM for Speaker Identification
+
+This code is to demonstrate the multimodal LSTM described in the following paper <br>
+
+Jimmy SJ. Ren, Yongtao Hu, Yu-Wing Tai, Chuan Wang, Li Xu, Wenxiu Sun, Qiong Yan, 
+"[Look, Listen and Learn - A Multimodal LSTM for Speaker Identification](http://www.jimmyren.com/papers/AAAI16_Ren.pdf)", The 30th AAAI Conference on Artificial Intelligence (AAAI-16). <br>
+
+Please visit [here](https://github.com/jimmy-ren/vLSTM) for a refactored version of the multimodal LSTM and more applications <br>
+
+## Dataset
+Raw dataset can be downloaded [here](http://pan.baidu.com/s/1hrdNhiO).
+
+###Dataset summary
+This is a multimodal dataset containing both face images and corresponding speaking audio clips, which is extracted from the first two seasons of TV series - "The Big Bang Theory". 
+
+###Face images
+We extract the faces of all the characters (no matter he/she is a leading character or not) from 12 episodes in the TV series, i.e. first 6 episodes from Season 1 and first 6 episodes from Season 2. All the faces have been organized per character per episode. For example, for Season-1-Episode-1, you will find 6 folders in folder `face-images/s01e01`, including 5 of them are for the 5 leading characters (Howard, Leonard, Penny, Raj and Sheldon) and 1 named `other` for all other non-leading characters. In total, we have more than 407K face images (in JPG format).
+
+###Speaking audio
+We extract all the speaking audio segments of the 5 leading characters across the whole two seasons. All speaking audio clips are merged into one per character per episode. For example, for Season-2-Episode-1, you will find 5 WAV files in folder `speaking-audio/s02e01` for the 5 leading characters (Howard, Leonard, Penny, Raj and Sheldon). The matches between the name and labels used in the WAV filenames can be seen in the `labels.txt` file. In total, we have more than 3 hours length of speaking audio (in WAV format). 
+
+###Terms of use
+The dataset is provided for <b>research purposes only</b>. Any commercial use is prohibited. Please cite our paper if you use the dataset in your research work
+
+## How to run the code
+
+
+
+
