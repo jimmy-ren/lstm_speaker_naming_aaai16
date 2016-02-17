@@ -8,7 +8,7 @@ Jimmy SJ. Ren, Yongtao Hu, Yu-Wing Tai, Chuan Wang, Li Xu, Wenxiu Sun, Qiong Yan
 Please visit [here](https://github.com/jimmy-ren/vLSTM) for a refactored version of the multimodal LSTM and more applications <br>
 
 ## Dataset
-Raw dataset can be downloaded [here](http://pan.baidu.com/s/1hrdNhiO).
+Raw dataset can be downloaded [Baidu Pan](http://pan.baidu.com/s/1hrdNhiO) or [Google Drive](https://drive.google.com/folderview?id=0B6nl_KFEGWG0UUJjaWRGQ19PZnc&usp=sharing).
 
 ###Dataset summary
 This is a multimodal dataset containing both face images and corresponding speaking audio clips, which is extracted from the first two seasons of TV series - "The Big Bang Theory". 
