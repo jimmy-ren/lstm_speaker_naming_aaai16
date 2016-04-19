@@ -5,7 +5,7 @@ This code is to demonstrate the multimodal LSTM described in the following paper
 Jimmy SJ. Ren, Yongtao Hu, Yu-Wing Tai, Chuan Wang, Li Xu, Wenxiu Sun, Qiong Yan, 
 "[Look, Listen and Learn - A Multimodal LSTM for Speaker Identification](http://www.jimmyren.com/papers/AAAI16_Ren.pdf)", The 30th AAAI Conference on Artificial Intelligence (AAAI-16). <br>
 
-Please visit [here](https://github.com/jimmy-ren/vLSTM) for a refactored version of the multimodal LSTM and more applications <br>
+Please visit [here](https://github.com/jimmy-ren/vLSTM) for a refactored version of the multimodal LSTM and more applications. The training procedure and the pre-processed training data used in this paper are also released there. <br>
 
 ## Dataset
 Raw dataset can be downloaded [Baidu Pan](http://pan.baidu.com/s/1hrdNhiO) or [Google Drive](https://drive.google.com/folderview?id=0B6nl_KFEGWG0UUJjaWRGQ19PZnc&usp=sharing).
