@@ -28,7 +28,7 @@ This code uses pre-processed data in the .mat form. To run the code, please go [
 The code was tested in Ubuntu 14.04, it should also run in Windows. You have to have a NVidia GPU to run the code, graphics memory need to be larger than 4GB.
 
 ### Run multimodal LSTM (the full weight sharing mode)
-Step 1: Go [here](http://pan.baidu.com/s/1gex1U5H) or [here](https://drive.google.com/folderview?id=0B6nl_KFEGWG0OGpaejB0Q05kdUE&usp=sharing), download the whole `LSTM_sn_full_mm_weight_share` folder overwrite the same folder in the code. <br>
+Step 1: Go [here](http://pan.baidu.com/s/1gex1U5H) or [here](https://drive.google.com/drive/folders/0B6nl_KFEGWG0OGpaejB0Q05kdUE?resourcekey=0--8yBYQUjkB40zFSDhMT5DA&usp=sharing), download the whole `LSTM_sn_full_mm_weight_share` folder overwrite the same folder in the code. <br>
 Step 2: Launch Matlab and enter the `LSTM_sn_full_mm_weight_share` folder. Open `speaker_naming/face_audio_5c/`, run `test_FA_all_v52.m`. <br>
 
 Wait for several minutes and you will see the caculated false alarm rate and accuray. You will find that both false alarm rate and accuracy are <b>the highest</b> among all versions of multi/single modal LSTM.
