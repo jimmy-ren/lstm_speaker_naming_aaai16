@@ -34,15 +34,15 @@ Step 2: Launch Matlab and enter the `LSTM_sn_full_mm_weight_share` folder. Open 
 Wait for several minutes and you will see the caculated false alarm rate and accuray. You will find that both false alarm rate and accuracy are <b>the highest</b> among all versions of multi/single modal LSTM.
 
 ### Run multimodal LSTM (the half weight sharing mode)
-Step 1: Go [here](http://pan.baidu.com/s/1gex1U5H) or [here](https://drive.google.com/folderview?id=0B6nl_KFEGWG0OGpaejB0Q05kdUE&usp=sharing), download the whole `LSTM_sn_half_mm_weight_share` folder overwrite the same folder in the code. <br>
+Step 1: Go [here](http://pan.baidu.com/s/1gex1U5H) or [here](https://drive.google.com/drive/folders/0B6nl_KFEGWG0OGpaejB0Q05kdUE?resourcekey=0--8yBYQUjkB40zFSDhMT5DA&usp=sharing), download the whole `LSTM_sn_half_mm_weight_share` folder overwrite the same folder in the code. <br>
 Step 2: Launch Matlab and enter the `LSTM_sn_half_mm_weight_share` folder. Open `speaker_naming/face_audio_5c/`, run `test_FA_all_v5.m`.
 
 ### Run single modal LSTM
-Step 1: Go [here](http://pan.baidu.com/s/1gex1U5H) or [here](https://drive.google.com/folderview?id=0B6nl_KFEGWG0OGpaejB0Q05kdUE&usp=sharing), download the whole `LSTM_sn_no_mm_weight_share` folder overwrite the same folder in the code. <br>
+Step 1: Go [here](http://pan.baidu.com/s/1gex1U5H) or [here](https://drive.google.com/drive/folders/0B6nl_KFEGWG0OGpaejB0Q05kdUE?resourcekey=0--8yBYQUjkB40zFSDhMT5DA&usp=sharing), download the whole `LSTM_sn_no_mm_weight_share` folder overwrite the same folder in the code. <br>
 Step 2: Launch Matlab and enter the `LSTM_sn_no_mm_weight_share` folder. Open `speaker_naming/face_audio_5c/`, run `test_FA_all_v61.m`.
 
 ### Run single modal LSTM for image alone classification and audio alone classification
-Step 1: Go [here](http://pan.baidu.com/s/1gex1U5H) or [here](https://drive.google.com/folderview?id=0B6nl_KFEGWG0OGpaejB0Q05kdUE&usp=sharing), download the whole `LSTM_sn_audio_only` folder as well as `LSTM_sn_face_only` folder, overwrite the same folders in the code. <br>
+Step 1: Go [here](http://pan.baidu.com/s/1gex1U5H) or [here](https://drive.google.com/drive/folders/0B6nl_KFEGWG0OGpaejB0Q05kdUE?resourcekey=0--8yBYQUjkB40zFSDhMT5DA&usp=sharing), download the whole `LSTM_sn_audio_only` folder as well as `LSTM_sn_face_only` folder, overwrite the same folders in the code. <br>
 Step 2: Launch Matlab and enter the `LSTM_sn_audio_only` folder or `LSTM_sn_face_only` folder. Open `speaker_naming/audio_only/` or `speaker_naming/face_only/`, run `test_audio_all.m` or `test_face_all.m`.
 
 
